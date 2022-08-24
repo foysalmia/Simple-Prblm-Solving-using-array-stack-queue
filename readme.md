@@ -47,7 +47,7 @@ You will be given a String . You need to check if the string is a palindrome or 
 |abcdef| NO|
 |abcdcba| YES |
 
-#### 1.  Write a program to reverse a string using stack.
+#### 6.  Write a program to reverse a string using stack.
  ``You are given a string.You have to print the reverse of the string.``
 #### Expected Time Complexity: O(N).
 
