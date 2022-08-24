@@ -13,8 +13,11 @@ void checkDuplicateParenthesis(string str){
            if(str[i]==stk.Top()){
                 flag = true;
                 break;
+            }else{
+                stk.push(str[i]);
             }
         }else{
+            stk.pop();
             stk.push(str[i]);
         };
     }
